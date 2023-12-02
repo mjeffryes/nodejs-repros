@@ -1,6 +1,23 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "awscli2@latest": {
+      "last_modified": "2023-11-26T23:14:46Z",
+      "resolved": "github:NixOS/nixpkgs/45827faa2132b8eade424f6bdd48d8828754341a#awscli2",
+      "source": "devbox-search",
+      "version": "2.13.33",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/xqxy25vxsvjd34zpzxi9j52qh6hxlklw-awscli2-2.13.33"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/iqcy4024rrvi61qj769vsbwdkh2iq5my-awscli2-2.13.33"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/5dv2i81m77sbah1vv0dzqaaqlg1v5038-awscli2-2.13.33"
+        }
+      }
+    },
     "nodejs@20.": {
       "last_modified": "2023-11-24T11:02:37Z",
       "resolved": "github:NixOS/nixpkgs/068bacb9b6fbee6a603d1b1f68d7cf032c4feed1#nodejs_20",
