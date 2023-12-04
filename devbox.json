@@ -1,6 +1,7 @@
 {
   "packages": [
-    "nodejs@20."
+    "nodejs@20.",
+    "azure-cli@latest"
   ],
   "shell": {
     "init_hook": [

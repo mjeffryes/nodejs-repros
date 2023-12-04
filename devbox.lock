@@ -1,6 +1,26 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "azure-cli@latest": {
+      "last_modified": "2023-11-30T09:21:56Z",
+      "resolved": "github:NixOS/nixpkgs/f5c27c6136db4d76c30e533c20517df6864c46ee#azure-cli",
+      "source": "devbox-search",
+      "version": "2.54.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/b55a23hspmy3scvmkg24j28jiznzm08y-python3.11-azure-cli-2.54.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/p8ra9jld86zimx9022f9rp1xkdjvjm5l-python3.11-azure-cli-2.54.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/l6aafsxsbypb2r5gb6hs5xk7qg3c4a9x-python3.11-azure-cli-2.54.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/k56h4ihahwmr8irwxq06ki32bz1jzxvr-python3.11-azure-cli-2.54.0"
+        }
+      }
+    },
     "nodejs@20.": {
       "last_modified": "2023-11-24T11:02:37Z",
       "resolved": "github:NixOS/nixpkgs/068bacb9b6fbee6a603d1b1f68d7cf032c4feed1#nodejs_20",
