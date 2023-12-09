@@ -6,7 +6,9 @@ import * as pulumi from "@pulumi/pulumi";
 const cluster = new aws.ecs.Cluster("cluster", {});
 
 // Create a load balancer to listen for requests and route them to the container.
-const loadbalancer = new awsx.lb.ApplicationLoadBalancer("loadbalancer", { });
+const loadbalancer = new awsx.lb.ApplicationLoadBalancer("loadbalancer", {
+    defaultTargetGroupPort: 3000
+});
 
 // Create the ECR repository to store our container image
 const repo = new awsx.ecr.Repository("repo", {
