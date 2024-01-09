@@ -1,6 +1,7 @@
 {
   "packages": [
-    "nodejs@20."
+    "nodejs@20.",
+    "kubernetes-helm@latest"
   ],
   "shell": {
     "init_hook": [
